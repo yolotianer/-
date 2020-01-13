@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="001942f2-2940-47f2-aa01-fea55754a50a" name="Default Changelist" comment="">
+    <list default="true" id="001942f2-2940-47f2-aa01-fea55754a50a" name="Default Changelist" comment="将各个类进行整理，放在version01包中">
+      <change afterPath="$PROJECT_DIR$/src/main/java/version02/TextDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/分词Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/分词Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/version01/分词Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/列表页Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/列表页Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/version01/列表页Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/数据库存储Demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/数据库存储Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/version01/数据库存储Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/数据库存储Demo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/数据库存储Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/version01/数据库存储Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/详情页Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/详情页Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/列表页Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/详情页Demo.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,34 +28,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="3" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="3" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="1176" />
-          <entry key="txt" value="46" />
+          <entry key="java" value="1906" />
+          <entry key="txt" value="84" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1176" />
-          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="JAVA" value="1906" />
+          <entry key="PLAIN_TEXT" value="108" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -89,8 +81,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="468">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/version02/TextDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="108" column="26" lean-forward="true" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/数据库存储Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="198">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/数据库存储Demo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="448">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,6 +178,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/数据库存储Demo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/version02/TextDemo.java" />
       </list>
     </option>
   </component>
@@ -192,8 +197,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="937" />
+    <option name="y" value="38" />
     <option name="width" value="988" />
-    <option name="height" value="1038" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -228,14 +234,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="项目1相关知识练习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目1相关知识练习" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="version01" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578920894316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578926921056" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -262,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.数据库存储Demo2">
+  <component name="RunManager" selected="Application.TextDemo">
     <configuration name="列表页Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="version01.列表页Demo" />
       <module name="项目1相关知识练习" />
@@ -272,13 +270,6 @@
     </configuration>
     <configuration name="数据库存储Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="version01.数据库存储Demo1" />
-      <module name="项目1相关知识练习" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="详情页Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="version01.详情页Demo" />
       <module name="项目1相关知识练习" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,20 +289,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="version02.TextDemo" />
+      <module name="项目1相关知识练习" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="version02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.详情页Demo" />
       <item itemvalue="Application.分词Demo" />
       <item itemvalue="Application.数据库存储Demo1" />
       <item itemvalue="Application.数据库存储Demo2" />
       <item itemvalue="Application.列表页Demo" />
+      <item itemvalue="Application.TextDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextDemo" />
         <item itemvalue="Application.列表页Demo" />
         <item itemvalue="Application.数据库存储Demo2" />
         <item itemvalue="Application.数据库存储Demo1" />
         <item itemvalue="Application.分词Demo" />
-        <item itemvalue="Application.详情页Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +331,7 @@
       <updated>1578572184160</updated>
       <workItem from="1578572188497" duration="659000" />
       <workItem from="1578667545431" duration="725000" />
-      <workItem from="1578892290120" duration="12592000" />
+      <workItem from="1578892290120" duration="18055000" />
     </task>
     <task id="LOCAL-00001" summary="分析详情页">
       <created>1578903358389</created>
@@ -364,16 +368,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578920753591</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="将各个类进行整理，放在version01包中">
+      <created>1578921508896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578921508896</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13976000" />
+    <option name="totallyTimeSpent" value="19439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="750" y="0" width="790" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2704918" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2704918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +395,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3295129" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37249285" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2181303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +426,8 @@
     <MESSAGE value="进行分词" />
     <MESSAGE value="SHA-256学习" />
     <MESSAGE value="对数据库进行添加操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="对数据库进行添加操作" />
+    <MESSAGE value="将各个类进行整理，放在version01包中" />
+    <option name="LAST_COMMIT_MESSAGE" value="将各个类进行整理，放在version01包中" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/项目1相关知识练习.iml">
@@ -473,10 +486,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="468">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -485,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/version01/数据库存储Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="198">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -495,18 +518,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/version01/数据库存储Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="448">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/Util.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="2226">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/version02/TextDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="108" column="26" lean-forward="true" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
