@@ -10,7 +10,7 @@ import java.util.List;
  * @author yolo
  * @date 2020/1/9-20:17
  */
-public class webClientDemo {
+public class 列表页Demo {
     public static void main(String[] args){
         //1.获取指定URL页面
 
