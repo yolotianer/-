@@ -1,3 +1,5 @@
+package version01;
+
 import com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource;
 
 import java.sql.Connection;
@@ -40,6 +42,5 @@ public class 数据库存储Demo2 {
                 statement.executeUpdate();
             }
         }
-
     }
 }
