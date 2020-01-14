@@ -115,6 +115,7 @@ public class TextDemo {
                         "(sha256, dynasty, title, author, " +
                         "content, word) " +
                         "VALUES (?, ?, ?, ?, ?, ?)";
+
                 try (PreparedStatement statement = connection.prepareStatement(sql)) {
                     statement.setString(1, SHA);
                     statement.setString(2, dynasty);
