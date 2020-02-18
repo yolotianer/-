@@ -1,4 +1,4 @@
-package lab;
+package version01;
 
 import org.ansj.domain.Term;
 import org.ansj.splitWord.analysis.NlpAnalysis;
