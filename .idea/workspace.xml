@@ -49,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="2624" />
+          <entry key="java" value="2628" />
           <entry key="txt" value="120" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2624" />
+          <entry key="JAVA" value="2628" />
           <entry key="PLAIN_TEXT" value="144" />
           <entry key="XML" value="5" />
         </counts>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="308">
+              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,9 +197,9 @@
         <option value="$PROJECT_DIR$/src/main/java/version02/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/version02单线程/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/version01/列表页Demo.java" />
         <option value="$PROJECT_DIR$/唐诗三百首/列表页.html" />
         <option value="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/version01/列表页Demo.java" />
       </list>
     </option>
   </component>
@@ -299,7 +299,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582025061307" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582025564817" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -415,7 +415,7 @@
       <workItem from="1578996938805" duration="113000" />
       <workItem from="1579011657363" duration="130000" />
       <workItem from="1579066526461" duration="626000" />
-      <workItem from="1581995788938" duration="13642000" />
+      <workItem from="1581995788938" duration="14106000" />
     </task>
     <task id="LOCAL-00001" summary="分析详情页">
       <created>1578903358389</created>
@@ -522,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582023226832</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="列表页">
+      <created>1582025108533</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582025108533</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36776000" />
+    <option name="totallyTimeSpent" value="37240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -675,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -716,10 +713,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

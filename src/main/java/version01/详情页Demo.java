@@ -36,6 +36,7 @@ public class 详情页Demo {
              */
             {
                 String xpath="//div[@class='cont']/h1/text()";
+                //    public <T> List<T> getByXPath(final String xpathExpr):返回的是一个链表，而我们只需要链表的第一个元素
                 Object o=body.getByXPath(xpath).get(0);
                 DomText domText=(DomText) o;
                 System.out.println(domText.asText());
