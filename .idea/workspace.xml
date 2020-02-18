@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001942f2-2940-47f2-aa01-fea55754a50a" name="Default Changelist" comment="修改版本名称">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="17" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -138,7 +138,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="937" />
     <option name="width" value="1025" />
     <option name="height" value="1095" />
@@ -207,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582008401698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582010875033" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -302,7 +302,7 @@
       <workItem from="1578996938805" duration="113000" />
       <workItem from="1579011657363" duration="130000" />
       <workItem from="1579066526461" duration="626000" />
-      <workItem from="1581995788938" duration="3232000" />
+      <workItem from="1581995788938" duration="3984000" />
     </task>
     <task id="LOCAL-00001" summary="分析详情页">
       <created>1578903358389</created>
@@ -385,13 +385,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26366000" />
+    <option name="totallyTimeSpent" value="27118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="3" width="820" height="876" extended-state="0" />
+    <frame x="750" y="0" width="820" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4343832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.332021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="17" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="594">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
