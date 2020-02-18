@@ -32,13 +32,13 @@ public class 列表页Demo {
              System.out.println(body);
              HtmlBody[<body onclick="closeshowBos()">]
              */
-            //通过属性名，查去HTML下的所有元素
+            //通过标签，查取相应HTML
             List<HtmlElement> elements=body.getElementsByAttribute(
                     "div",
                     "class",
                     "typecont"
             );
-            int count=0;
+            int count=0;//记录总共有多少首诗
             for (HtmlElement element : elements) {
                 //查找当前元素或者当前元素之下的相同标签的元素.
                 List<HtmlElement>aElements=element.getElementsByTagName("a");
@@ -46,12 +46,12 @@ public class 列表页Demo {
                     System.out.println(a.getAttribute("href"));
                     count++;
                 }
-                System.out.println(count);
             }
+            System.out.println(count);
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
-            webClient.close();
+            webClient.close();//关闭客户端
         }
         /*
         System.out.println(page);
