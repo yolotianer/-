@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001942f2-2940-47f2-aa01-fea55754a50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,15 +47,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="2143" />
-          <entry key="txt" value="105" />
+          <entry key="java" value="2559" />
+          <entry key="txt" value="117" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2143" />
-          <entry key="PLAIN_TEXT" value="129" />
+          <entry key="JAVA" value="2559" />
+          <entry key="PLAIN_TEXT" value="141" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="95">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,23 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="547">
+              <caret line="45" column="55" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/唐诗三百首/列表页.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -192,8 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/version02/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/version02单线程/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" />
         <option value="$PROJECT_DIR$/唐诗三百首/列表页.html" />
+        <option value="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" />
       </list>
     </option>
   </component>
@@ -210,7 +201,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="886" />
     <option name="width" value="1025" />
     <option name="height" value="1099" />
@@ -252,6 +243,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="项目1相关知识练习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目1相关知识练习" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="version01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,11 +267,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="项目1相关知识练习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目1相关知识练习" type="462c0819:PsiDirectoryNode" />
-              <item name="唐诗三百首" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582015882894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582018238164" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -394,7 +388,7 @@
       <workItem from="1578996938805" duration="113000" />
       <workItem from="1579011657363" duration="130000" />
       <workItem from="1579066526461" duration="626000" />
-      <workItem from="1581995788938" duration="8393000" />
+      <workItem from="1581995788938" duration="10889000" />
     </task>
     <task id="LOCAL-00001" summary="分析详情页">
       <created>1578903358389</created>
@@ -487,17 +481,24 @@
       <option name="project" value="LOCAL" />
       <updated>1582012952769</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="简单demo实现库的使用">
+      <created>1582016006242</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582016006242</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31527000" />
+    <option name="totallyTimeSpent" value="34023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="709" y="0" width="820" height="879" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33176944" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35170603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +507,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22946176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34672022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -542,7 +543,8 @@
     <MESSAGE value="单线程版本" />
     <MESSAGE value="修改版本名称" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="简单demo实现库的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单demo实现库的使用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/项目1相关知识练习.iml">
@@ -638,10 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="95">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -650,15 +652,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/唐诗三百首/列表页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="510">
           <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="547">
+          <caret line="45" column="55" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
