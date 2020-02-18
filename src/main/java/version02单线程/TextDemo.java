@@ -1,4 +1,4 @@
-package version02;
+package version02单线程;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;
