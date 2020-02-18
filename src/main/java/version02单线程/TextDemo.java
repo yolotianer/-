@@ -23,15 +23,15 @@ import java.util.List;
  */
 public class TextDemo {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
-        //1.
+        //1.创建客户端
         WebClient webClient=new WebClient(BrowserVersion.CHROME);
-        //2.
+        //2.关闭js,css引擎
         webClient.getOptions().setJavaScriptEnabled(false);
         webClient.getOptions().setCssEnabled(false);
-        //3.
+        //3.指定需要爬取的url,获取html页面
         String URL="https://so.gushiwen.org/gushi/tangshi.aspx";
         HtmlPage page=webClient.getPage(URL);
-        //4.
+        //4.进行筛选，得到包含详情页信息的html元素
         HtmlElement body=page.getBody();
         List<HtmlElement>elements=body.getElementsByAttribute(
                 "div",
@@ -39,7 +39,7 @@ public class TextDemo {
                 "typecont"
         );
 
-        //5.
+        //5.再次筛选信息，得到详情页的path（）
         List<String>url=new ArrayList<>();
         int count=0;
         for (HtmlElement element : elements) {
@@ -50,7 +50,7 @@ public class TextDemo {
             }
         }
 
-        //6.
+        //6.连接数据库--连接池
         MysqlConnectionPoolDataSource dataSource=new MysqlConnectionPoolDataSource();
         dataSource.setServerName("127.0.0.1");
         dataSource.setPort(3305);
@@ -60,7 +60,7 @@ public class TextDemo {
         dataSource.setUseSSL(false);
         dataSource.setCharacterEncoding("UTF-8");
 
-        //7.
+        //7.获取诗词，存入数据库
         String tempUrl=null;
         for (String s : url) {
             tempUrl="https://so.gushiwen.org"+s;
