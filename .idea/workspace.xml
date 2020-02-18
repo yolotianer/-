@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="001942f2-2940-47f2-aa01-fea55754a50a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,33 +29,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="html" value="2" />
+          <entry key="html" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="29" />
+          <entry key="java" value="31" />
+          <entry key="rnc" value="1" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="31" />
+          <entry key="RNG Compact" value="1" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="2559" />
-          <entry key="txt" value="117" />
+          <entry key="java" value="2624" />
+          <entry key="txt" value="120" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2559" />
-          <entry key="PLAIN_TEXT" value="141" />
+          <entry key="JAVA" value="2624" />
+          <entry key="PLAIN_TEXT" value="144" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -84,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="343">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="234">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +116,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/唐诗三百首/列表页.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#a#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="45" column="55" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="55" />
+            <state relative-caret-position="313">
+              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,9 +196,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/version02/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/version02单线程/TextDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" />
-        <option value="$PROJECT_DIR$/唐诗三百首/列表页.html" />
         <option value="$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/version01/列表页Demo.java" />
+        <option value="$PROJECT_DIR$/唐诗三百首/列表页.html" />
+        <option value="$PROJECT_DIR$/src/main/java/version01/详情页Demo.java" />
       </list>
     </option>
   </component>
@@ -201,8 +216,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="886" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="y" value="11" />
     <option name="width" value="1025" />
     <option name="height" value="1099" />
   </component>
@@ -267,6 +283,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="项目1相关知识练习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="项目1相关知识练习" type="462c0819:PsiDirectoryNode" />
+              <item name="唐诗三百首" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,7 +299,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582018238164" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582025061307" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -298,16 +319,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HtmlUnitDemo">
+  <component name="RunManager" selected="Application.详情页Demo">
     <configuration name="列表页Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="version01.列表页Demo" />
-      <module name="项目1相关知识练习" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数据库存储Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="version01.数据库存储Demo1" />
       <module name="项目1相关知识练习" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,6 +330,19 @@
     <configuration name="数据库存储Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="version01.数据库存储Demo2" />
       <module name="项目1相关知识练习" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="详情页Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="version01.详情页Demo" />
+      <module name="项目1相关知识练习" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="version01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,19 +381,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.数据库存储Demo1" />
       <item itemvalue="Application.数据库存储Demo2" />
       <item itemvalue="Application.列表页Demo" />
       <item itemvalue="Application.TextDemo" />
       <item itemvalue="Application.HtmlUnitDemo" />
+      <item itemvalue="Application.详情页Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.详情页Demo" />
+        <item itemvalue="Application.列表页Demo" />
         <item itemvalue="Application.HtmlUnitDemo" />
         <item itemvalue="Application.TextDemo" />
-        <item itemvalue="Application.列表页Demo" />
         <item itemvalue="Application.数据库存储Demo2" />
-        <item itemvalue="Application.数据库存储Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +415,7 @@
       <workItem from="1578996938805" duration="113000" />
       <workItem from="1579011657363" duration="130000" />
       <workItem from="1579066526461" duration="626000" />
-      <workItem from="1581995788938" duration="10889000" />
+      <workItem from="1581995788938" duration="13642000" />
     </task>
     <task id="LOCAL-00001" summary="分析详情页">
       <created>1578903358389</created>
@@ -488,17 +515,24 @@
       <option name="project" value="LOCAL" />
       <updated>1582016006242</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="列表页">
+      <created>1582023226832</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582023226832</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34023000" />
+    <option name="totallyTimeSpent" value="36776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="709" y="0" width="820" height="879" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35170603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35120642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -544,7 +578,8 @@
     <MESSAGE value="修改版本名称" />
     <MESSAGE value="-" />
     <MESSAGE value="简单demo实现库的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单demo实现库的使用" />
+    <MESSAGE value="列表页" />
+    <option name="LAST_COMMIT_MESSAGE" value="列表页" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/项目1相关知识练习.iml">
@@ -630,10 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="313">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,25 +677,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/version01/列表页Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="343">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/唐诗三百首/列表页.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        <state relative-caret-position="162">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab/HtmlUnitDemo.java">
+    <entry file="file://$PROJECT_DIR$/唐诗三百首/列表页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="45" column="55" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="55" />
+        <state relative-caret-position="432">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#a#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-sources.jar!/com/gargoylesoftware/htmlunit/html/DomText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-sources.jar!/com/gargoylesoftware/htmlunit/html/DomNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="797" lean-forward="true" selection-start-line="797" selection-end-line="797" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/version01/详情页Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

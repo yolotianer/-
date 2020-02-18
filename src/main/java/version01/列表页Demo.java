@@ -40,7 +40,7 @@ public class 列表页Demo {
             );
             int count=0;//记录总共有多少首诗
             for (HtmlElement element : elements) {
-                //查找当前元素或者当前元素之下的相同标签的元素.
+                //getElementsByTagName() 返回带有指定标签名的所有元素:node.getElementsByTagName("tagname");
                 List<HtmlElement>aElements=element.getElementsByTagName("a");
                 for (HtmlElement a : aElements) {//获取了每首诗的详情页url
                     System.out.println(a.getAttribute("href"));
