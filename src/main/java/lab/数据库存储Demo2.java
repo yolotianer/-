@@ -1,4 +1,4 @@
-package version01;
+package lab;
 
 import com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource;
 

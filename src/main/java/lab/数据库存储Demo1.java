@@ -1,4 +1,4 @@
-package version01;
+package lab;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

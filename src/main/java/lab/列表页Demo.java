@@ -1,4 +1,4 @@
-package version01;
+package lab;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;
