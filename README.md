@@ -58,7 +58,7 @@
         - 内存是否满足需求
         - 使用过程是否遇到复杂问题或者BUG，以及如何解决
     
-- Demo1: 获取列表页html文件，筛选相关信息
+- Demo1: HTML相关操作（获取列表页html文件，筛选相关信息，得到详情页path）
 ```
 public class HtmlUnitDemo {
     public static void main(String[] args) throws IOException {
@@ -94,3 +94,84 @@ public class HtmlUnitDemo {
     }
 }
 ```
+- Demo2：分词
+
+```
+        String sentence="中华人民中华人民共和国成立了！中国人民从此站起来了。";
+        /*
+        AnsjSeg提供了四种分词调用的方式：
+            ①基本分词(BaseAnalysis)
+            ②精准分词(ToAnalysis)
+            ③NLP分词(NlpAnalysis)
+            ④面向索引分词(IndexAnalysis)
+          NLP分词方式可是未登录词，但速度较慢：
+          NlpAnalysis.parse(sentence)--分词
+          public List<Term> getTerms() {return this.terms;}--类型转换
+
+         */
+
+        List<Term> termList= NlpAnalysis.parse(sentence).getTerms();
+        for (Term term : termList) {
+            System.out.println(term.getNatureStr()+":"+term.getRealName());
+        }//term.getNatureStr()：拿到词性     term.getRealName()：拿到词
+```
+- Demo3:计算SHA
+
+```
+        MessageDigest messageDigest=MessageDigest.getInstance("SHA-256");
+        String s="你好世界";
+        byte[] bytes = s.getBytes("UTF-8");
+        messageDigest.update(bytes);
+        byte[] result = messageDigest.digest();
+
+```
+
+- Demo4:保存数据库
+
+```
+public class 数据库存储Demo {
+    public static void main(String[] args) throws SQLException {
+       MysqlConnectionPoolDataSource dataSource=new MysqlConnectionPoolDataSource();
+       dataSource.setServerName("127.0.0.1");
+       dataSource.setPort(3305);
+       dataSource.setUser("root");
+       dataSource.setPassword("password");
+       dataSource.setDatabaseName("tangshi");
+       dataSource.setUseSSL(false);
+       dataSource.setCharacterEncoding("UTF-8");
+
+        String 朝代 = "唐代";
+        String 作者 = "白居易";
+        String 标题 = "问刘十九";
+        String 正文 = "绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无？";
+
+        try (Connection connection = dataSource.getConnection()) {
+            String sql = "INSERT INTO t_tangshi " +
+                    "(sha256, dynasty, title, author, " +
+                    "content, word) " +
+                    "VALUES (?, ?, ?, ?, ?, ?)";
+            try (PreparedStatement statement = connection.prepareStatement(sql)) {
+                statement.setString(1, "sha256");
+                statement.setString(2, 朝代);
+                statement.setString(3, 标题);
+                statement.setString(4, 作者);
+                statement.setString(5, 正文);
+                statement.setString(6, "");
+
+                statement.executeUpdate();
+            }
+        }
+    }
+}
+
+```
+2. 整体流程
+
+```
+    请求列表页->解析列表页
+    for(...){
+        请求详情页->解析详情页
+        分词->计算sha->存入数据库
+    }
+```
+
