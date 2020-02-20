@@ -24,7 +24,7 @@ import java.util.List;
  * @author yolo
  * @date 2020/2/18-19:47
  */
-public class TextDemo {
+public class MultithreadDemo {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException, SQLException {
 
         //创建客户端
