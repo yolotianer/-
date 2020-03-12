@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299ce7ea-dde8-443c-a911-ad3ec94b697e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/lab/HtmlUnitDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version01/分词Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version01/列表页Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version01/数据库存储Demo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version01/数据库存储Demo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version01/详情页Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version02/TextDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version03/TextDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version04多线程/MultithreadDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/version05/MultiThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/lab/HtmlUnitDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version01/分词Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version01/列表页Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version01/数据库存储Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version01/数据库存储Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version01/详情页Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version02/TextDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/version03/TextDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../项目1相关知识练习.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,12 +16,13 @@
     <session id="1897137961">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            <state relative-caret-position="222">
+              <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +74,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main/Job.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="-1650">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +108,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="695" />
     <option name="width" value="1020" />
     <option name="height" value="1040" />
@@ -142,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,6 +165,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,18 +226,18 @@
       <workItem from="1583399464946" duration="56000" />
       <workItem from="1583400426423" duration="10091000" />
       <workItem from="1583479866003" duration="594000" />
-      <workItem from="1583562196252" duration="598000" />
+      <workItem from="1583562196252" duration="604000" />
+      <workItem from="1584023520911" duration="1101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11339000" />
+    <option name="totallyTimeSpent" value="12446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="556" y="0" width="816" height="832" extended-state="1" />
-    <editor active="true" />
+    <frame x="556" y="0" width="816" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3126649" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32058048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="222">
+          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -337,8 +314,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main/Job.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="-1650">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
