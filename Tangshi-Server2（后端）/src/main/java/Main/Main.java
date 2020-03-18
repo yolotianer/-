@@ -5,6 +5,7 @@ import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource;
+import dao.DBUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,19 +20,20 @@ import java.util.concurrent.Executors;
  */
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        WebClient webClient=new WebClient(BrowserVersion.CHROME);
-        webClient.getOptions().setCssEnabled(false);
-        webClient.getOptions().setJavaScriptEnabled(false);
+        WebClient webClient=new WebClient(BrowserVersion.CHROME);//新建一个模拟谷歌浏览器的浏览器客户端对象
+        webClient.getOptions().setCssEnabled(false);//不启用css
+        webClient.getOptions().setJavaScriptEnabled(false);//不启用js
+        //列表页URL
         String baseUrl="https://so.gushiwen.org";
         String pathUrl="/gushi/tangshi.aspx";
 
+        //解析列表页，获取详情页URL
         List<String> pathList=getPath(webClient, baseUrl, pathUrl);
-        System.out.println(pathList);
 
         //连接池
-        MysqlConnectionPoolDataSource dataSource = getDataSource();
+        MysqlConnectionPoolDataSource dataSource = DBUtils.getDataSource();
 
-        //线程池
+        //线程池：320/30  大约需要十趟
         ExecutorService pool = Executors.newFixedThreadPool(30);
 
         CountDownLatch countDownLatch = new CountDownLatch(pathList.size());
@@ -39,30 +41,14 @@ public class Main {
         for (String url : pathList) {
             pool.execute(new Job(baseUrl,url,dataSource,countDownLatch));
         }
-        countDownLatch.await();
-        pool.shutdown();
+        countDownLatch.await();//表示所有的线程全部结束
+        pool.shutdown();//关闭线程池
 
     }
 
     /**
-     *
-     * @return
-     */
-    private static MysqlConnectionPoolDataSource getDataSource() {
-        MysqlConnectionPoolDataSource dataSource=new MysqlConnectionPoolDataSource();
-        dataSource.setServerName("127.0.0.1");
-        dataSource.setPort(3305);
-        dataSource.setUser("root");
-        dataSource.setPassword("mmwan980815");
-        dataSource.setDatabaseName("tangshi");
-        dataSource.setUseSSL(false);
-        dataSource.setCharacterEncoding("UTF-8");
-        return dataSource;
-    }
-
-    /**
-     * 获取详情页path
-     * @param webClient
+     * 解析列表页，获取详情页path
+     * @param webClient　浏览器客户端对象
      * @param baseUrl
      * @param pathUrl
      * @return
@@ -72,15 +58,15 @@ public class Main {
         String URL=baseUrl+pathUrl;
         HtmlPage page = null;
         try {
-            page = webClient.getPage(URL);
+            page = webClient.getPage(URL);//尝试加载网页，得到HTML文档
             HtmlElement body = page.getBody();
             List<HtmlElement> elements = body.getElementsByAttribute("div",
                     "class",
                     "typecont");
             for (HtmlElement element : elements) {
-                List<HtmlElement> aElements = element.getElementsByTagName("a");
+                List<HtmlElement> aElements = element.getElementsByTagName("a");//a:标签
                 for (HtmlElement aElement : aElements) {
-                    pathList.add(aElement.getAttribute("href"));
+                    pathList.add(aElement.getAttribute("href"));//href：属性
                 }
             }
             return pathList;

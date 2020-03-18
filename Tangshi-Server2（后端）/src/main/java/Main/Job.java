@@ -5,6 +5,7 @@ import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.DomText;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import dao.DBUtils;
 import org.ansj.domain.Term;
 import org.ansj.splitWord.analysis.NlpAnalysis;
 
@@ -26,7 +27,7 @@ import java.util.concurrent.CountDownLatch;
  * @date 2020/3/5-17:24
  */
 public class Job implements Runnable{
-    String baseURL;
+    private String baseURL;
     private String pathURL;
     private DataSource dataSource;
     private CountDownLatch countDownLatch;
@@ -48,7 +49,7 @@ public class Job implements Runnable{
         Connection connection=null;
         PreparedStatement statement=null;
         try {
-            MessageDigest messageDigest=MessageDigest.getInstance("SHA-256");
+
             HtmlPage page=webClient.getPage(baseURL+ pathURL);
             HtmlElement body = page.getBody();
             String xpath;
@@ -75,7 +76,8 @@ public class Job implements Runnable{
             HtmlElement htmlElement=(HtmlElement) body.getByXPath(xpath).get(0);
             String content=htmlElement.getTextContent();
 
-            //计算sha-256
+            //计算sha-256--保证数插入数据的唯一性
+            MessageDigest messageDigest=MessageDigest.getInstance("SHA-256");
             String s = title+content;
             messageDigest.update(s.getBytes("UTF-8"));
             byte[] result = messageDigest.digest();
@@ -104,9 +106,9 @@ public class Job implements Runnable{
 
             String insertWords=String.join(",",words);
 
-             connection = dataSource.getConnection();
+            connection = dataSource.getConnection();
             String sql = "INSERT INTO t_tangshi(sha256,dynasty,title,author,content,word)VALUES(?,?,?,?,?,?)";
-             statement = connection.prepareStatement(sql);
+            statement = connection.prepareStatement(sql);
             statement.setString(1,sha256.toString());
             statement.setString(2,dynasty);
             statement.setString(3,title);
@@ -122,25 +124,12 @@ public class Job implements Runnable{
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
-            if(!e.getMessage().contains("Duplicate entry")){
+            if(!e.getMessage().contains("Duplicate entry")){//为了处理重复插入
                 e.printStackTrace();
             }
         }finally {
-            if(statement!=null){
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
-            if(connection!=null){
-                try {
-                    connection.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
-            countDownLatch.countDown();
+            DBUtils.close(connection,statement);
+            countDownLatch.countDown();//表示现一个线程的任务结束了
         }
     }
 }
