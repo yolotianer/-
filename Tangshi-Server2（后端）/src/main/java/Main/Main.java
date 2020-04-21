@@ -53,6 +53,8 @@ public class Main {
      * @param pathUrl
      * @return
      */
+
+
     private static List<String> getPath(WebClient webClient, String baseUrl, String pathUrl) {
         List<String> pathList=new ArrayList<>();
         String URL=baseUrl+pathUrl;
